@@ -1,0 +1,22 @@
+ <!-- <gridster-item [item]="item" *ngFor="let item of dashboard">{{options.margin}} {{item.hasContent}} {{id}}
+
+      <div _ngcontent-c11="" id="dash" class="card">
+
+        <div _ngcontent-c11="" class="card-content gradient-45deg-amber-amber gradient-shadow white-text">
+          <a class="btn-floating btn-small right" (mousedown)="removeItem($event, item)" (touchstart)="removeItem($event, item)">
+            <i _ngcontent-c3="" class="material-icons">add</i>
+          </a>
+          <a class="btn-floating btn-small right" (mousedown)="removeItem($event, item)" (touchstart)="removeItem($event, item)">
+            <i _ngcontent-c3="" class="material-icons">close</i>
+          </a>
+          <p _ngcontent-c11="" class="card-stats-title">
+            <i _ngcontent-c11="" class="material-icons">trending_up</i> Audits</p>
+          <h4 _ngcontent-c11="" class="card-stats-number">0</h4>
+          <p _ngcontent-c11="" class="card-stats-compare">
+            <i _ngcontent-c11="" class="material-icons">keyboard_arrow_up</i>0%
+            <span _ngcontent-c11="" class="amber-text text-lighten-5">from last week</span>
+          </p>
+        </div>
+
+      </div>
+    </gridster-item> -->

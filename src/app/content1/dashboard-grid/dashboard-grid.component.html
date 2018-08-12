@@ -1,0 +1,59 @@
+<!-- <app-dashboard-grid-add-item>
+
+</app-dashboard-grid-add-item> -->
+
+<a class="btn add-button cols-2" (click)="addItemClicked('')">ADD TILE</a>
+<input id="inputStuff">
+<a class="btn" (click)="testClicked1('poop')">SavedDashboard1</a>
+<a class="btn" (click)="testClicked2('poop')">SavedDashboard2</a>
+<a class="btn" (click)="testClicked3('poop')">SavedDashboard3</a>
+<!-- {{this.item | json}} -->
+
+<div class="gridster">
+  <gridster [options]="options">
+    <gridster-item [item]="item" *ngFor="let item of dashboard">
+      <small>
+        <pre>{{ item | json }}</pre>
+        <p>UniqueID: {{item.id}}</p>
+      </small>
+      <a class="btn-floating btn-small right" (mousedown)="removeItem($event, item)" (touchstart)="removeItem($event, item)">
+        <i _ngcontent-c3="" class="material-icons">add</i>
+      </a>
+      <a class="btn-floating btn-small right" (mousedown)="removeItem($event, item)" (touchstart)="removeItem($event, item)">
+        <i _ngcontent-c3="" class="material-icons">close</i>
+      </a>
+
+
+      <!-- DYNAMICALLY CREATE THIS TOMORROW -->
+    </gridster-item>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <br/>
+    <pre>{{ this.dashboard | json }}</pre>
+  </gridster>
+
+
+</div>
+
+WORDS

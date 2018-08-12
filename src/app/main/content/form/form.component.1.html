@@ -1,0 +1,133 @@
+<app-breadcrumbs></app-breadcrumbs>
+
+
+<div class="row">
+
+    <div class="input-field col s12">
+        <h5>
+            <i class="material-icons">account_circle</i> Details about the person</h5>
+    </div>
+
+    <div class="input-field col s3 m4">
+
+
+
+        <ul class="list-group sortable" [sortablejs]="accidentForm1" [sortablejsOptions]="accidentFormOptions">
+            <li class="list-group-item" *ngFor="let item of accidentForm1">
+                <!-- <div *ngFor="let newcity of city">
+        </div> -->
+                <div class="input-field">
+
+                    <i class="material-icons prefix">input</i>
+                    <label for="first_name " class="active ">{{item}}</label>
+
+
+
+                    <input placeholder="placeholder" type="text" value="{{item.firstname}}">
+
+                </div>
+
+
+            </li>
+            <!-- <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select> -->
+        </ul>
+
+
+        <p class=" my-3 ">Array for save:</p>
+
+        <div class="alert alert-dark ">
+            <pre>{{ accidentForm1 | json }}</pre>>
+        </div>
+
+
+        <!-- 
+            <div class="input-field col s3 m4">
+
+
+                <ul class="list-group sortable" [sortablejs]="accidentForm2" [sortablejsOptions]="accidentFormOptions">
+                    <li class="list-group-item" *ngFor="let item of accidentForm2">
+                        
+                        <div class="input-field">
+
+                            <i class="material-icons prefix">account_circle</i>
+                            <label for="first_name " class="active ">{{item}}</label>
+
+
+
+                            <input placeholder="placeholder" type="text">
+
+                        </div>
+
+
+                    </li>
+              
+                </ul>
+
+                <p class=" my-3 ">Array for save:</p>
+
+                <div class="alert alert-dark ">
+
+                    <pre>{{ accidentForm2| json }}</pre>>
+                </div>
+            </div> -->
+    </div>
+
+    <div class="input-field col s12">
+        <h5>
+            <i class="material-icons">accessibility_new</i> Details about the event</h5>
+    </div>
+    <div class="input-field col s3 m4">
+        <ul class="list-group sortable">
+
+            <li class="list-group-item">
+                <div class="input-field">
+                    <i class="material-icons prefix">input</i>
+                    <label for="first_name " class="active ">{{item}}</label>
+                    <input placeholder="placeholder" type="text">
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="input-field">
+                    <i class="material-icons prefix">input</i>
+                    <label for="first_name " class="active ">{{item}}</label>
+                    <input placeholder="placeholder" type="text">
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="input-field">
+                    <i class="material-icons prefix">input</i>
+                    <label for="first_name " class="active ">{{item}}</label>
+                    <input placeholder="placeholder" type="text">
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="input-field">
+                    <i class="material-icons prefix">input</i>
+                    <label for="first_name " class="active ">{{item}}</label>
+                    <input placeholder="placeholder" type="text">
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="input-field">
+                    <i class="material-icons prefix">input</i>
+                    <label for="first_name " class="active ">{{item}}</label>
+                    <input placeholder="placeholder" type="text">
+                </div>
+            </li>
+
+        </ul>
+
+
+
+
+
+
+
+
+
+    </div>

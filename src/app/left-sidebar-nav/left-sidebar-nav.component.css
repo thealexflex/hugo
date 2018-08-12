@@ -1,0 +1,115 @@
+/* aside {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    top: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 280px;
+    max-width: 280px;
+    min-width: 280px;;
+    z-index: 1000;
+
+    left: 0px;
+
+    position: relative;
+
+    height: 100% !important;
+    background-color: #2d323e!important;
+color: rgba(255,255,255,.87)!important; 
+} */
+
+
+.sidebar {
+    background-color: #263238;
+    color: #fff;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: static;
+    height: 100%;
+    flex: 0 0 auto;
+    width: 16.875rem;
+    z-index: 99;
+}
+
+.sidebar-content {
+    left: -18.5625rem;
+}
+
+.username {
+    font-weight: 500;
+    margin-bottom: .125rem;
+}
+
+.userlocation {
+    font-size: .6875rem;
+    opacity: .5;
+}
+
+.userlocation i {
+    font-size: 0.8rem;
+    
+    vertical-align: middle;
+    position: relative;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.nav-sidebar {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.nav-sidebar .nav-item-header {
+    padding: .75rem 1.25rem;
+    margin-top: .5rem;
+    color: rgba(255,255,255,.5);
+    text-transform: uppercase!important;
+    font-size: .6875rem;
+    line-height: 1.82;
+}
+
+
+.nav-sidebar .nav-link {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: .75rem 1.25rem;
+    transition: background-color ease-in-out .15s,color ease-in-out .15s;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.nav-sidebar .nav-link i {
+    margin-right: 1.25rem;
+    margin-top: .12502rem;
+    margin-bottom: .12502rem;
+    top: 0;
+}
+
+.nav-sidebar>.nav-item-open>.nav-link:not(.disabled), .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #26a69a;
+    color: #fff;
+}
+
+ .sidebar:not(.bg-transparent) .card:not([class*=bg-]):not(.fixed-top) {
+    background-color: transparent;
+}
+/*
+.sidebar-dark .nav-sidebar .nav-link, .sidebar-light .card[class*=bg-]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-sidebar .nav-link {
+    color: rgba(255,255,255,.9);
+}
+
+.nav-sidebar>.nav-item>.nav-link {
+    font-weight: 500;
+} */

@@ -1,0 +1,101 @@
+  /* DASHBOARD CSS */
+
+  .card {
+    margin: 0px !important;
+     padding: 0px !important; 
+     /* background: blue; */
+     overflow: hidden;
+     height: 100% !important;
+
+       }
+
+.card .card-content {
+    padding: 10px;
+    border-radius: 0 0 2px 2px; 
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+#dash .card .card-content p {
+    margin: 0 !important;
+}
+.card .card-content .card-stats-title i {
+    font-size: 1.2rem !important;
+    top: 4px !important;
+    position: relative !important;
+    line-height: 2rem !important;
+}
+.card .card-stats-number {
+    font-size: 1.8rem !important;
+    line-height: 2.0rem !important;
+    margin: 0.2rem 0 0.2rem 0 !important;
+    font-weight: 500 !important;
+    display: inline-block;
+}
+
+.card .card-stats-compare {
+display: inline-block !important;
+font-size: 0.8rem !important;
+line-height: 2rem !important;
+
+}
+
+.card .card-content .card-stats-compare i {
+position: relative;
+top: 8px;
+margin-right:  0px;
+line-height: 2rem !important;
+}
+
+
+
+
+
+
+
+
+.background-round {
+    background-color: rgba(0, 0, 0, 0.18);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.gradient-45deg-light-blue-cyan.gradient-shadow {
+    box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5);
+}
+
+.gradient-45deg-light-blue-cyan {
+    background: #0288d1;
+    background: -webkit-linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
+    background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
+}
+
+.gradient-45deg-red-pink.gradient-shadow {
+    box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5);
+}
+
+.gradient-45deg-red-pink {
+    background: #FF5252;
+    background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+    background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+}
+
+.gradient-45deg-amber-amber.gradient-shadow {
+    box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
+}
+
+.gradient-45deg-amber-amber {
+    background: #ff6f00;
+    background: -webkit-linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+    background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+}
+
+.gradient-45deg-green-teal.gradient-shadow {
+    box-shadow: 0 6px 20px 0 rgba(77, 182, 172, 0.5);
+}
+
+.gradient-45deg-green-teal {
+    background: #43A047;
+    background: -webkit-linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
+    background: linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
+}

@@ -1,0 +1,87 @@
+.navbar {
+    color: rgba(255,255,255,.9);
+    background-color: #324148;
+    border-bottom-color: rgba(255,255,255,.1);
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 1.00002rem;
+    padding-bottom: 1.00002rem;
+    margin-right: 1.25rem;
+    font-size: 0;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #fff;
+        min-width: 15.625rem;
+
+}
+
+.navbar-brand img {
+    height: 1rem;
+    display: block;
+
+}
+
+.navbar-dark .navbar-nav-link {
+    color: rgba(255,255,255,.9);
+}
+
+/* .navbar .material-icons {
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+} */
+
+.navbar-nav-link {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: .875rem 1rem;
+    outline: 0;
+    transition: all ease-in-out .15s;
+}
+
+.navbar-nav-link-module {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: .875rem 0.5rem;
+    outline: 0;
+    transition: all ease-in-out .15s;
+}
+
+.navbar-dark .navbar-nav-link:focus, .navbar-dark .navbar-nav-link:hover {
+    color: #fff;
+    background-color: rgba(0,0,0,.15);
+}
+
+.navbar-nav-link .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-warning-400 {
+    background-color: #ff7043;
+}
+
+.dropdown-user .navbar-nav-link, .dropdown-user .navbar-nav-link>span {
+    padding-top: .4375rem;
+    padding-bottom: .4375rem;
+}
+
+img {
+    max-height: 2.12503rem;
+    vertical-align: top;
+    background-color: lightskyblue;
+}
+
+.dropdown-user .navbar-nav-link>span {
+    display: inline-block;
+    padding-left: .625rem;
+}

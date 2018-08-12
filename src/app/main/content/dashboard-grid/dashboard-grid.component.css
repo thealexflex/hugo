@@ -1,0 +1,36 @@
+gridster {
+    background-color: #f9f9f9 !important;
+  }
+
+gridster-preview {
+    background: lightgrey !important;
+}
+
+.gridster {
+    height: 2000px !important;
+    overflow-y: hidden !important;
+    }
+
+    .display-grid {
+        transition: background-color 0.5s ease-in;
+        transition: background-color 0.5s ease-out;
+        /* background-color: #8e24aa !important;
+        background: -webkit-linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%) !important;
+        background: linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%) !important; */
+    }
+    .btn-floating {
+        /* position: relative;
+        top: -15px;
+        right: -15px; */
+        overflow: visible !important;
+        z-index: 999 !important;
+    }
+
+
+
+
+
+
+
+
+  

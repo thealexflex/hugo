@@ -1,0 +1,28 @@
+
+
+.section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container {
+    padding: 0 0.5rem;
+    margin: 0 auto;
+    max-width: 100% !important;
+    width: 98% !important;
+    }
+
+#content .container .row {
+    margin-bottom: 0;
+}
+
+
+.caption {
+    font-size: 1.25rem;
+    font-weight: 300 !important;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+}

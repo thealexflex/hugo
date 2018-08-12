@@ -1,0 +1,58 @@
+h5 {
+    margin-bottom:0px;
+}
+
+h5 i {
+    font-size: 1.67rem;
+    line-height: 110%;
+    position: relative;
+    top: 0.2rem;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    background: #ffffff;;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ .input-field {
+     margin-top: 0px;
+     line-height: 2rem;
+    display: block; 
+    
+} 
+
+ .input-field > label {
+   top: 1.5rem;
+    left: -1.5rem;
+   /* display: block; */
+    
+} 
+
+.input-field .prefix {
+    position: relative;
+    top: 0rem;
+    width: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    transition: color .2s;
+    top: 0.5rem;
+}
+
+ /* .input-field .prefix ~ label {
+    margin-left: 0rem;
+} */
+
+.input-field .prefix ~ input {
+    display: block;
+    position: relative;
+    left: -3rem;
+
+}
+
+/* .sortable {
+    background: #eee;
+    border-radius: 0.25rem;
+    min-height: 40px;
+  } */

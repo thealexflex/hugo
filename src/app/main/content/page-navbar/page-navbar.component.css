@@ -1,0 +1,27 @@
+.navbar {
+    /* border-top: 0px solid transparent; */
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav-link {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: .875rem 1rem;
+    outline: 0;
+    transition: all ease-in-out .15s;
+    color: rgba(51,51,51,.85);
+}
+
+.navbar .active>.navbar-nav-link, .navbar .navbar-nav-link.active, .navbar .navbar-nav-link.show, .navbar .show>.navbar-nav-link {
+    color: #333;
+    background-color: rgba(0,0,0,.04);
+}
+
+.navbar-nav-link:hover {
+    background-color: rgba(0,0,0,.04);
+}

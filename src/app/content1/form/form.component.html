@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="section">
+        <h4 class="header2">
+            Form with placeholder</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="John Doe" id="name2" type="text">
+                        <label for="first_name" class="active">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="john@domainname.com" id="email2" type="email">
+                        <label for="email" class="active">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="YourPassword" id="password2" type="password">
+                        <label for="password" class="active">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea placeholder="Oh WoW! Let me check this one too." id="message2" class="materialize-textarea"></textarea>
+                        <label for="message" class="active">Message</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button class="btn cyan waves-effect waves-light right" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<p>
+    Most of the time one wants to sort something more than just data. Complex forms with
+    <em>FormArray</em> controls are also supported.
+</p>
+
+<p>Try to change the text and reorder the inputs</p>
+
+<ul class="list-group" [sortablejs]="citiesControls">
+    <li class="list-group-item" *ngFor="let city of citiesControls.controls">
+        <input class="form-control">
+    </li>
+</ul>
+
+<p class="my-3">The actual value of the array</p>
+
+<div class="alert alert-dark">
+    > {{ citiesControls.value | json }}
+</div>
